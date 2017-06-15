@@ -1,0 +1,20 @@
+{
+  "name": "import-dir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "test-watch": "clear && nodemon --exec \"npm test\""
+  },
+  "author": "Bruno Donizetti (azinod@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "camelcase-keys": "^4.1.0",
+    "is-empty-object": "^1.1.1"
+  }
+}
